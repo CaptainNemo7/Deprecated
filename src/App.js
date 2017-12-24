@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-bootstrap'
 import './App.css';
-import Resume from './resume.jsx';
-import Projects from './projects.jsx';
+import Resume from './components/resume.jsx';
+import Projects from './components/projects.jsx';
 
 class App extends Component {
   render() {

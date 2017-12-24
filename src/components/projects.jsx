@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectDetail from './projectDetail.jsx';
-import caesarVideo from './videos/CaesarCipher.mp4';
-import cliffMovieVideo from './videos/ironman.mp4';
+import caesarVideo from '../videos/CaesarCipher.mp4';
+import cliffMovieVideo from '../videos/ironman.mp4';
 // import projectData from './videos/projectData.js'
 
 
