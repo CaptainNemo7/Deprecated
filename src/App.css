@@ -1,0 +1,68 @@
+a {
+  text-decoration: none;
+  color:white;   /* unvisited link */
+  color:white;  /* visited link */
+}
+
+p {
+  margin-top: 20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  text-align: center;
+  /*color: #006494; */
+  /*color: white;*/
+  color: #9E9E9E;
+  font-size: 1.2em;
+}
+
+h1, h2, h3, .strong {
+  /*color: #CD5D67;*/
+  /*color: #6D72C3;*/
+  /*color: #5941A9;*/
+  /*color: #F50057;*/
+  color: #0097A7;
+}
+
+.App {
+  background-color: #212121;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #0097A7;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 3.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #424242;
+}
+
+.App-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #424242;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Applications-title {
+  color: #F50057;
+  font-size: 250%;
+}
+
+.Resume {
+  font-size: 1.5em;
+}
+
