@@ -3,8 +3,6 @@ import ProjectDetail from './projectDetail.jsx';
 import caesarVideo from '../videos/CaesarCipher.mp4';
 import cliffMovieVideo from '../videos/ironman.mp4';
 import cryptoTracker from '../videos/CryptoTracker.mp4';
-// import projectData from './videos/projectData.js'
-
 
 class Projects extends React.Component {
 	constructor(props) {
@@ -33,7 +31,6 @@ class Projects extends React.Component {
 		}
 	}
 
-
 	render() {
 
 		return (
@@ -43,7 +40,6 @@ class Projects extends React.Component {
 										key={project.title}
 										value = {project}
 									/>
-					
 					})
 				}
 			</div>

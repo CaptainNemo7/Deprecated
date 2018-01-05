@@ -5,8 +5,8 @@ a {
 }
 
 p {
+  margin-top: 20%;
   margin-left: 20%;
-  margin-right: 20%;
   margin-bottom: 5%;
   text-align: center;
   /*color: #006494; */
@@ -42,14 +42,17 @@ h1, h2, h3, .strong {
 
 .App-title {
   font-size: 3.5em;
+  margin-top: 0px;
   margin-bottom: 0px;
   color: #424242;
 }
+
 .App-description {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #424242;
 }
+
 .App-intro {
   font-size: large;
 }
@@ -57,5 +60,9 @@ h1, h2, h3, .strong {
 .Applications-title {
   color: #F50057;
   font-size: 250%;
+}
+
+.Resume {
+  font-size: 1.5em;
 }
 
