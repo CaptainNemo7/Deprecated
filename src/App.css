@@ -5,7 +5,7 @@ a {
 }
 
 p {
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 20%;
   margin-bottom: 5%;
   text-align: center;
@@ -35,7 +35,6 @@ h1, h2, h3, .strong {
 
 .App-header {
   background-color: #0097A7;
-  height: 150px;
   padding: 20px;
   color: white;
 }
@@ -48,8 +47,7 @@ h1, h2, h3, .strong {
 }
 
 .App-description {
-  margin-top: 0px;
-  margin-bottom: 0px;
+
   color: #424242;
 }
 
@@ -60,9 +58,14 @@ h1, h2, h3, .strong {
 .Applications-title {
   color: #F50057;
   font-size: 250%;
+  margin: 40px;
 }
 
 .Resume {
   font-size: 1.5em;
+}
+
+#projectHeader {
+  margin: 20px;
 }
 

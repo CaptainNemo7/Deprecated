@@ -12,7 +12,7 @@ class App extends Component {
           <h2 className="App-description">Software Engineer</h2>
           <Resume />
         </header> 
-        <h2>Projects:</h2>
+        <h2 id='projectHeader'>Recent Projects:</h2>
         <Projects />      
       </div>
     );

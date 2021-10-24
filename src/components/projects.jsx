@@ -13,19 +13,22 @@ class Projects extends React.Component {
 					link: 'https://caesarcipherdemo.herokuapp.com',
 					video: caesarVideo,
 					description: 'This is a Caesar Cipher, one of the earliest known forms of encryption. This program encrypts, decrypts and brute forces through given ciphers. I built the front-end with React and React-Bootstrap and the server is made with Node.js/Express. It is currently live on Heroku. I also built my own algorithims for the encryption and decryption.',
-					tech: 'HTML, CSS, Javascript, React, React-Bootstrap, Node.js/Express, Webpack, Babel'
+					tech: 'HTML, CSS, Javascript, React, React-Bootstrap, Node.js/Express, Webpack, Babel',
+					id: 1
 				},
 				{	title:'Crypto Tracker',
 					link: 'https://github.com/CaptainNemo7/CryptoTracker',
 					video: cryptoTracker,
 					description: 'The Crypto Tracker is a smartphone app built for both iOS and Android phones. I chose to use React-Native in order to easily reach both Android and iOS users with one build. It displays up to date information about the most popular crypto currencies',
-					tech: 'React-Native, Axios, Numeral.js, React-Navigation, Babel'
+					tech: 'React-Native, Axios, Numeral.js, React-Navigation, Babel',
+					id: 2
 				},
 				{	title:'Cliff\'s Movie DB',
 					link: 'https://cliffsmoviedb.herokuapp.com/',
 					video: cliffMovieVideo,
 					description: 'An advanced movie database that gives users access to movie data. Using feature-driven development, I created the ads component front-end with React and Redux and the backend with Node.js/Express.',
-					tech: 'HTML, CSS, Javascript, React, Redux, Node.js/Express, MongoDB, Mongoose, Axios, Webpack'
+					tech: 'HTML, CSS, Javascript, React, Redux, Node.js/Express, MongoDB, Mongoose, Axios, Webpack',
+					id: 3
 				},
 			],
 		}
@@ -38,7 +41,8 @@ class Projects extends React.Component {
 				{this.state.projects.map((project) => {
 					return <ProjectDetail 
 										key={project.title}
-										value = {project}
+										value={project}
+										id={project.id}
 									/>
 					})
 				}
